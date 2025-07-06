@@ -1,0 +1,1 @@
+# ... (code complet fourni plus haut, incluant OpenAI/Ollama)
