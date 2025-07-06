@@ -1,0 +1,26 @@
+{
+  "ollama": [
+    {
+      "name": "llama3",
+      "description": "Modèle Llama 3 (open source, local, précis et rapide, recommandé pour usage général)."
+    },
+    {
+      "name": "mistral",
+      "description": "Modèle Mistral (open source, performant sur la génération de texte)."
+    },
+    {
+      "name": "codellama",
+      "description": "Modèle Code Llama (optimisé pour la génération de code)."
+    }
+  ],
+  "openai": [
+    {
+      "name": "gpt-3.5-turbo",
+      "description": "GPT-3.5 Turbo (OpenAI, cloud, rapide, bon rapport coût/qualité)."
+    },
+    {
+      "name": "gpt-4",
+      "description": "GPT-4 (OpenAI, cloud, plus coûteux, meilleure compréhension contextuelle)."
+    }
+  ]
+}
