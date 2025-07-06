@@ -1,0 +1,35 @@
+# Node
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.vite/
+/frontend/.DS_Store
+/frontend/.env
+
+# Python
+/backend/venv/
+/backend/__pycache__/
+/backend/workspace/
+/backend/dist/
+/backend/build/
+/backend/*.spec
+
+# Electron builder
+/frontend/build/
+/frontend/out/
+
+# PyInstaller
+/backend/*.spec
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env vars
+.env
+
+# IA Models (stockés hors repo)
+.ollama/
+models/*.bin
+models/*.gguf
+models/*.ggml
+*.safetensors
