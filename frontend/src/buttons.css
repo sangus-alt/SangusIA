@@ -1,0 +1,15 @@
+.sangus-btn {
+  background: var(--sangus-blue);
+  color: var(--text-invert);
+  border: none;
+  border-radius: 6px;
+  padding: 0.7em 1.4em;
+  font-weight: bold;
+  font-size: 1.1em;
+  box-shadow: 0 2px 8px #191a2320;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+.sangus-btn:hover {
+  background: var(--sangus-violet);
+}

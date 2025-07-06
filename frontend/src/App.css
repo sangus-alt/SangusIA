@@ -1,0 +1,85 @@
+:root {
+  --bg-dark: #18181B;
+  --bg-card: #23272E;
+  --accent: #3B82F6;
+  --accent-success: #16A34A;
+  --accent-warning: #FACC15;
+  --text-main: #F3F4F6;
+  --text-muted: #A1A1AA;
+  --border: #2D2D31;
+  --sidebar-width: 300px;
+}
+
+body {
+  background: var(--bg-dark);
+  color: var(--text-main);
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+.sangus-root {
+  display: flex;
+  min-height: 100vh;
+  background: var(--bg-dark);
+}
+.sangus-sidebar {
+  background: var(--bg-card);
+  width: var(--sidebar-width);
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.brand {
+  font-size: 2.2rem;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+.ia-accent {
+  color: var(--accent);
+}
+.sangus-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2.5rem;
+}
+@media (max-width: 900px) {
+  .sangus-root {
+    flex-direction: column;
+  }
+  .sangus-sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .sangus-main {
+    padding: 1rem;
+  }
+}
+
+/* ModelSelector styles */
+.model-selector label {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  font-size: 1.1rem;
+}
+.model-selector select {
+  background: var(--bg-card);
+  color: var(--text-main);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.25em 1em 0.25em 0.5em;
+  font-size: 1rem;
+}
+
+/* Chat/Editor/Explorer: à adapter selon composants */

@@ -1,0 +1,27 @@
+:root {
+  --sangus-blue: #3256A8;
+  --sangus-violet: #7C3AED;
+  --sangus-gold: #FFD600;
+  --sangus-green: #22C55E;
+  --bg-dark: #191A23;
+  --bg-light: #F4F7FA;
+  --text-main: #191A23;
+  --text-invert: #FFFFFF;
+}
+[data-theme="dark"] {
+  --bg: var(--bg-dark);
+  --text: var(--text-invert);
+  --sidebar: #23272E;
+  --border: #2D2D31;
+}
+[data-theme="light"] {
+  --bg: var(--bg-light);
+  --text: var(--text-main);
+  --sidebar: #e5e7eb;
+  --border: #d1d5db;
+}
+body {
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.3s, color 0.3s;
+}

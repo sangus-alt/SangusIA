@@ -1,0 +1,23 @@
+:root {
+  --bg: #f9fafb;
+  --bg-card: #fff;
+  --text: #18181b;
+  --text-muted: #555;
+  --accent: #3B82F6;
+  --accent-secondary: #FACC15;
+  --sidebar: #e5e7eb;
+  --border: #d1d5db;
+}
+[data-theme="dark"] {
+  --bg: #18181b;
+  --bg-card: #23272E;
+  --text: #f3f4f6;
+  --text-muted: #A1A1AA;
+  --sidebar: #23272E;
+  --border: #2D2D31;
+}
+body {
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.3s, color 0.3s;
+}
