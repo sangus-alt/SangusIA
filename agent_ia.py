@@ -61,7 +61,7 @@ class PersonalAIAgent:
 
 # Boucle principale d'interaction
 if __name__ == "__main__":
-    agent = PersonalAIAgent("Jarvis") # Vous pouvez lui donner le nom que vous voulez !
+    agent = PersonalAIAgent("Sangus") # Vous pouvez lui donner le nom que vous voulez !
 
     # Enregistrement des commandes initiales
     agent.register_command("génère", agent._generate_content)
